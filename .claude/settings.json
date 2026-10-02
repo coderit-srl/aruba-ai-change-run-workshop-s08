@@ -1,0 +1,12 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(.claude/skills/cerca-procedure/scripts/cerca-wiki.sh:*)",
+      "Bash(.claude/skills/cerca-procedure/scripts/leggi-pagina.sh:*)",
+      "Bash(.claude/skills/cerca-procedure/scripts/verifica-report.sh:*)",
+      "Bash(.claude/skills/cerca-incident-simili/scripts/parametri-api.sh:*)",
+      "Bash(.claude/skills/cerca-incident-simili/scripts/cerca-incident.sh:*)",
+      "Bash(.claude/skills/cerca-incident-simili/scripts/leggi-ticket.sh:*)"
+    ]
+  }
+}

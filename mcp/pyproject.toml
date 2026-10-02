@@ -1,0 +1,13 @@
+[project]
+name = "novadc-mcp"
+version = "0.1.0"
+description = "Copia locale del server MCP NovaDC, da estendere nel LAB 4.2 di S02"
+requires-python = ">=3.11,<3.14"  # come il container del docente (python:3.12)
+# Stesse versioni del server del docente (sandbox/services/mcp/requirements.txt):
+# la copia locale deve comportarsi come quella condivisa.
+dependencies = [
+    "mcp==2.2.0",
+    "httpx==0.28.1",
+    "starlette==0.45.3",
+    "uvicorn[standard]==0.34.0",
+]

@@ -1,0 +1,16 @@
+# URL del corso: cambiano a ogni edizione
+.env
+
+# Ambienti Python e cache
+.venv/
+__pycache__/
+*.pyc
+
+# Indice del RAG e modelli scaricati: si rigenerano con rag/reindex.sh
+rag/indice/
+rag/modelli/
+
+# Obsidian: stato dell'editor, non contenuto
+vault/.obsidian/workspace*.json
+
+.DS_Store

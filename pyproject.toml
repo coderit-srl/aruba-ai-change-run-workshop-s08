@@ -1,0 +1,10 @@
+[project]
+name = "ai-bootcamp"
+version = "0.1.0"
+description = "Strumenti costruiti durante l'AI Bootcamp — Data Center Operations"
+requires-python = ">=3.11,<3.14"
+# Aggiunte in S08, LAB 2.1: 'uv add lancedb sentence-transformers'.
+dependencies = [
+    "lancedb>=0.20",
+    "sentence-transformers>=3",
+]

@@ -1,0 +1,3 @@
+# Gli script delle skill devono restare con a capo LF anche su Windows:
+# con CRLF bash si ferma alla prima riga ("set: pipefail: invalid option name").
+*.sh text eol=lf

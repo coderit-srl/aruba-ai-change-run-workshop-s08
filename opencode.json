@@ -1,0 +1,13 @@
+{
+  "$schema": "https://opencode.ai/config.json",
+  "mcp": {
+    "novadc-wiki": {
+      "type": "remote",
+      "url": "{env:MCP_URL}/wiki/mcp"
+    },
+    "novadc-tickets": {
+      "type": "remote",
+      "url": "{env:MCP_URL}/tickets/mcp"
+    }
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "mcpServers": {
+    "novadc-wiki": {
+      "type": "http",
+      "url": "${MCP_URL}/wiki/mcp"
+    },
+    "novadc-tickets": {
+      "type": "http",
+      "url": "${MCP_URL}/tickets/mcp"
+    }
+  }
+}
